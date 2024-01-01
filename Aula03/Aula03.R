@@ -1,5 +1,5 @@
 library(readxl)
-Aula_3_BD2020_CEA05P11 <- read_excel("Aula 3 BD2020 - CEA05P11.xlsx")
+Aula_3_BD2020_CEA05P11 <- read_excel("Aula03/Aula 3 BD2020 - CEA05P11.xlsx")
 View(Aula_3_BD2020_CEA05P11)
 attach(Aula_3_BD2020_CEA05P11)
 cor(EGS_a, EGS_d)
